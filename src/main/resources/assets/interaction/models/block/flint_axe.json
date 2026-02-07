@@ -1,0 +1,9 @@
+{
+  "parent": "interaction:custom/flint_axe",
+  "textures": {
+    "all": "interaction:block/flint_axe",
+    "particle": "interaction:block/flint_axe",
+    "0": "interaction:block/flint_axe"
+  },
+  "render_type": "cutout_mipped"
+}
