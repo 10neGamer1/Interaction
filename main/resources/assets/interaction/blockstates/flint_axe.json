@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "interaction:block/flint_axe"
+    },
+    "facing=east": {
+      "model": "interaction:block/flint_axe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "interaction:block/flint_axe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "interaction:block/flint_axe",
+      "y": 270
+    }
+  }
+}
