@@ -1,0 +1,73 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlintAxe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/interaction/block/FlintAxeBlock.java",
+          "src/main/resources/data/interaction/loot_table/blocks/flint_axe.json",
+          "src/main/resources/assets/interaction/models/block/flint_axe.json",
+          "src/main/resources/assets/interaction/models/item/flint_axe.json",
+          "src/main/resources/assets/interaction/blockstates/flint_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "InteractionTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interaction_tab",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.interaction.flint_axe": "Flint Axe",
+      "item_group.interaction.interaction_tab": "Interaction"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/interaction/init/InteractionModTabs.java",
+      "src/main/java/net/mcreator/interaction/InteractionMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/interaction/init/InteractionModBlocks.java",
+      "src/main/java/net/mcreator/interaction/init/InteractionModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "interaction",
+    "modName": "Interaction",
+    "version": "0.0.1_alpha",
+    "description": "A mod aiming to make your worlds more immersive with Interactions!",
+    "author": "10neGamer1",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "axe_icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made using MCreator, Blockbench, \u0026 Paint 3D",
+    "modElementsPackage": "net.mcreator.interaction"
+  },
+  "mcreatorVersion": 202500228610
+}
